@@ -78,3 +78,6 @@ a.count = a.arr.length;
 
 b.arr = arr.filter(item => item.completed === true);
 b.count = b.arr.length;
+
+console.log(a);
+console.log(b);
