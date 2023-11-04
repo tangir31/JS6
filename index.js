@@ -64,16 +64,8 @@ let arr = [
 ]
 
 
-arr.forEach(task => {
-    if (task.completed === false) {
-        a.arr.push(task);
-    }
-});
+a.arr = arr.filter(task => task.completed === false);
 a.count = a.arr.length;
 
-arr.forEach(task => {
-    if (task.completed === true) {
-        b.arr.push(task);
-    }
-});
+b.arr = arr.filter(task => task.completed === true);
 b.count = b.arr.length;
