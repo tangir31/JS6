@@ -64,8 +64,8 @@ let arr = [
 ]
 
 
-a.arr = arr.filter(task => task.completed === false);
+a.arr = arr.filter(item => item.completed === false);
 a.count = a.arr.length;
 
-b.arr = arr.filter(task => task.completed === true);
+b.arr = arr.filter(item => item.completed === true);
 b.count = b.arr.length;
