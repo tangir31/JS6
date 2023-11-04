@@ -63,6 +63,15 @@ let arr = [
     },
 ]
 
+let a = {
+    count: 0,
+    arr: []
+    }
+    
+    let b = {
+        count: 0,
+        arr: []
+        }
 
 a.arr = arr.filter(item => item.completed === false);
 a.count = a.arr.length;
